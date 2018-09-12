@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	border:0;
+}
+.main_atividades{
+	width: 100vw;
+	height: 100vh;
+	background-color: #EB268F;
+}
+.sec_atividades{
+	display: flex;
+	flex-direction: row;
+	padding: 30px 50px 20px;
+}
+.sec_atividades_img{
+	height: 270px;
+	width: 400px;
+	margin-left: 30px;
+
+}
+.sec_atividades_p{	
+	width: 37vw;
+	margin-left: 10%;
+	font-size: 20px
+
+}
+.sec2_atividades{
+	display: flex;
+	flex-direction: row;
+	
+}
+.sec2_atividades_imgs{
+	height: 200px;
+	margin-left: 30px; 
+	padding-left:5px;
+}
+.foto2{
+
+}
+.foto4{
+	
+}
