@@ -2,41 +2,86 @@
 	margin: 0;
 	border:0;
 }
+.header{
+	height: 100vh;
+	background: url('Assets/MG_4219.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.menurolativo{
+	position: fixed;
+}
+.menu{
+	background: #fff;
+	width: 200px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.imgmenu{
+	margin-top: 30px;
+	width: 200px;
+}
+.imgmenino{
+	width: 300px;
+	position: absolute;
+	left: 110%;
+	bottom: 1px;
+}
+.h1menu{
+	
+}
+.textomenu{
+	margin: 20%;
+	display: flex;
+	flex-direction: column;
+}
+.linkmenu1, .linkmenu2, .linkmenu3, .linkmenu4{
+	margin: 5px;
+	font-family: "adobe-clean", sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	color: #A6538D;
+}
 .main_atividades{
 	width: 100vw;
-	height: 100vh;
+	height: 90vh;
 	background-color: #EB268F;
 }
 .sec_atividades{
+	padding:30px 0px 20px 21%; 
 	display: flex;
 	flex-direction: row;
-	padding: 30px 50px 20px;
+	
 }
 .sec_atividades_img{
-	height: 270px;
-	width: 400px;
-	margin-left: 30px;
+	height: 290px;
+	width: 470px;
+	margin: 0px 0px 2px 10px
 
 }
 .sec_atividades_p{	
-	width: 37vw;
-	margin-left: 10%;
-	font-size: 20px
-
+	color: #FFFFFF;
+	margin: 0px 0px 15px 25px;
+	font-size: 20px;
+	width: 35vw;
+	height:41vh;
+	font-family: "adobe-clean", sans-serif;
 }
 .sec2_atividades{
 	display: flex;
 	flex-direction: row;
+	justify-content: flex-end;
 	
 }
 .sec2_atividades_imgs{
 	height: 200px;
-	margin-left: 30px; 
-	padding-left:5px;
+	padding-left:20px;
 }
 .foto2{
-
+	max-width: 211px;
 }
 .foto4{
-	
+	max-width: 211px;
+	padding-right:74px;
 }
